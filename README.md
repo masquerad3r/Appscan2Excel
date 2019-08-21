@@ -21,9 +21,30 @@ This python script simply takes two command line arguments:
 * Logout endpoints
 
 ## Running the tool
+### Prerequisites
+The tool runs on **python 3.7.x** installation.
+
+
+Required Module: **xlsxwriter**
+
+The same can be installed by using [pip](https://pypi.org/project/pip/):
+```
+pip install xlsxwriter
+```
+
+If both python 2.x and 3.x are installed, then:
+```
+pip3 install xlsxwriter
+```
+
+
 The tool expects the command in the following order:
 ```
 python AppScan_parser.py <xml file name> <log file name>
+```
+If both python 2.x and 3.x are installed:
+```
+python3 AppScan_parser.py <xml file name> <log file name>
 ```
 
 ## Screenshot
