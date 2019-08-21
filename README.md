@@ -37,8 +37,8 @@ If both python 2.x and 3.x are installed, then:
 pip3 install xlsxwriter
 ```
 
-
-The tool expects the command in the following order:
+### Command
+Tool expects the command in the following order:
 ```
 python AppScan_parser.py <xml file name> <log file name>
 ```
